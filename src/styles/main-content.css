@@ -25,8 +25,7 @@
     margin-right: 1.25rem;
 }
 
-.arrow-left,
-.arrow-right {
+.arrow-left{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +36,18 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
+.arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+} 
 
 .header__login{
     display: flex;
@@ -77,6 +88,7 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border:none;
 }
 
 .header__login .login{
@@ -86,4 +98,29 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.playlist__content{
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.playlist{
+    margin: 24px;
+}
+
+.playlist #greeting {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .greeting-subtitle {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
 }
